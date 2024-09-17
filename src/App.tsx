@@ -1,14 +1,12 @@
-import './App.css'
+import "./App.css";
+import CanvasDraw from "./components/CanvasDraw";
 
 function App() {
-
   return (
     <>
-      <p >
-        Hello World!
-      </p>
+      <CanvasDraw />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
